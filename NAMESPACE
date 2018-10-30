@@ -1,0 +1,4 @@
+useDynLib(MertonModel, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+import(methods, Rcpp)
+exportPattern("^[[:alpha:]]+")

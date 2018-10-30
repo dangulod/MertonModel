@@ -1,0 +1,12 @@
+Package: MertonModel
+Type: Package
+Title: Merton Model
+Version: 1.0
+Date: 2018-06-06
+Authors@R: person("David", "Angulo", , "david.angulo@gruposantander.com", role = c("aut", "cre"))
+Description: Unifactorial Merton Model
+License: GPL (>= 2)
+Imports: methods, Rcpp (>= 0.12.15), RcppArmadillo
+LinkingTo: Rcpp, RcppArmadillo
+SystemRequirements: GNU make
+RoxygenNote: 6.0.1
